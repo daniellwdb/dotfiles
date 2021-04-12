@@ -15,7 +15,7 @@ function Make-Symlink($target, $link) {
   }
   
   if ((Get-FileHash $target).Hash -eq (Get-FileHash $link).Hash) {
-    Write-Host "Symlink exist at: $target. Skipping."
+    Write-Host "Symlink exists at: $target. Skipping."
     return
   } 
 
