@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 
 function Confirm($title, $question) {
-  $choices = '&Yes', '&No'
+  $choices = "&Yes", "&No"
   $choice = $Host.UI.PromptForChoice($title, $question, $choices, 1)
 
   return $choice -eq 0
