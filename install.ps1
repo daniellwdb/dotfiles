@@ -35,7 +35,7 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
   $question = "Do you want to install the Visual Studio Code extensions listed below?`n$([System.String]::Join("`n", $extensions))"
 
   if (Confirm "[Visual Studio Code] -", $question) {
-    $extensions | ForEach-Object { code --install-extension $_ }
+    $extensions | ForEach-Object { code --install-extension $_ --force }
   } else {
     Write-Host "Skipping."
   }
