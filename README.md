@@ -5,9 +5,9 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/license/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub" />
-  <img src="https://img.shields.io/github/stars/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub" />
-  <img src="https://img.shields.io/github/issues-raw/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub" />
+  <img src="https://img.shields.io/github/license/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub license" />
+  <img src="https://img.shields.io/github/stars/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/issues-raw/daniellwdb/dotfiles?style=for-the-badge" alt="GitHub issues" />
 </div>
 
 <p align="center">
