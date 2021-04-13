@@ -76,7 +76,7 @@ _Ubuntu:_
 
 - Install common dependencies.
 - Prompt to install individual dotfiles managed with GNU Stow.
-- Prompt to install Visual Studio code extensions that I use.
+- Prompt to install Visual Studio Code extensions that I use.
 
 ## 💕 Contributing
 
