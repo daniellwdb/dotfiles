@@ -76,6 +76,5 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.tree.renderIndentGuides": "none",
-  "sync.gist": "4d68c5218f164d693a525a454b2cf835"
+  "workbench.tree.renderIndentGuides": "none"
 }
