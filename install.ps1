@@ -27,7 +27,7 @@ function Make-Symlink($target, $link) {
   }
 
   New-Item $target -ItemType SymbolicLink -Value $link -Force
-  Write-Host "Created symlink at: $target/"
+  Write-Host "Created symlink at: $target."
 }
 
 if (Get-Command code -ErrorAction SilentlyContinue) {
