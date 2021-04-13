@@ -48,6 +48,7 @@ cd dotfiles
 Make `zsh` the default shell for Linux:
 
 ```bash
+sudo apt install -y zsh
 chsh -s $(which zsh)
 ```
 

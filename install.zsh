@@ -9,7 +9,6 @@ sudo apt update && sudo apt install -y \
   make \
   tig \
   tree \
-  zsh \
   stow
 
 for dir in *(/); do
