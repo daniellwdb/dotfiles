@@ -15,6 +15,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "breadcrumbs.enabled": false,
+  "diffEditor.renderSideBySide": false,
   "editor.accessibilitySupport": "off",
   "editor.codeLens": true,
   "editor.colorDecorators": true,
