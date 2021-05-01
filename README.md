@@ -119,7 +119,7 @@ code --list-extensions | tail -n +2 > vscode/extensions.linux
 #### Windows
 
 - Open [install.ps1](install.ps1) and add a new line to make a call to the `Make-Symlink` function, the first argument is a path to the relevant file on Windows, the second one will be a path relative to the `dotfiles` repo.
-- Open [install.zsh](install.zsh) and fine the line that contains `[[ $dir =~ ^(vscode|windows)$ ]] && continue`, add the folder you created for your Windows config file to this list of ignored directories.
+- Open [install.zsh](install.zsh) and find the line that contains `[[ $dir =~ ^(vscode|windows)$ ]] && continue`, add the folder you created for your Windows config file to this list of ignored directories.
 
 To update the list of Visual Studio Code extensions installed on Windows, run the following in Powershell:
 
