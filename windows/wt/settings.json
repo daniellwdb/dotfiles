@@ -20,7 +20,7 @@
     "profiles": {
         "defaults": {
             "colorScheme": "Nord",
-            "fontFace": "Cascadia Code",
+            "fontFace": "CaskaydiaCove NF",
             "hidden": false
         },
         "list": [

@@ -1,16 +1,9 @@
-# Prompt
-fpath+=$HOME/.zsh/pure
-
-autoload -U promptinit
-promptinit
-
-PURE_CMD_MAX_EXEC_TIME=10
-
-zstyle :prompt:pure:path color blue
-zstyle ':prompt:pure:prompt:*' color cyan
-zstyle :prompt:pure:git:stash show yes
-
-prompt pure
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 # dircolors
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
@@ -19,6 +12,9 @@ alias ls='ls --color=auto'
 # PATH alterations
 ## dotnet
 export PATH="$PATH:$HOME/.dotnet/tools/"
+
+## bin
+export PATH="$HOME/.local/bin:$PATH"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -48,6 +44,10 @@ load-nvmrc() {
 
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# Theme
+source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.p10k.zsh
 
 # Plugins
 ## zsh-autosuggestions

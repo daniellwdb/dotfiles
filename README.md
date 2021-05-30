@@ -28,7 +28,7 @@ All user interfaces are themed after [Nord](https://www.nordtheme.com/), An arct
 
 ### Font
 
-I am using [Cascadia Code](https://github.com/microsoft/cascadia-code) as my primary font for both Visual Studio Code and terminals.
+I am using [a modified version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode) of [Cascadia Code](https://github.com/microsoft/cascadia-code) as my primary font for both Visual Studio Code and terminals.
 
 ### WSL2
 
