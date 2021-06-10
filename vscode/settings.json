@@ -59,7 +59,12 @@
   "telemetry.enableTelemetry": false,
   "terminal.explorerKind": "external",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
   "update.enableWindowsBackgroundUpdates": false,
   "update.mode": "none",
   "window.enableMenuBarMnemonics": false,
