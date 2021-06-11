@@ -7,6 +7,7 @@ fi
 
 export NVM_AUTO_USE=true
 export NVM_LAZY_LOAD=true
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -134,3 +135,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
