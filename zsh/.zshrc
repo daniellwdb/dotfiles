@@ -5,6 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+export GPG_TTY=$TTY
 export NVM_AUTO_USE=true
 export NVM_LAZY_LOAD=true
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)

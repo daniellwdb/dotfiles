@@ -3,6 +3,7 @@ eamodio.gitlens
 esbenp.prettier-vscode
 foxundermoon.shell-format
 GraphQL.vscode-graphql
+hashicorp.terraform
 meganrogge.template-string-converter
 ms-dotnettools.csharp
 ms-vsliveshare.vsliveshare

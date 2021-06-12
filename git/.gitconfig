@@ -1,6 +1,7 @@
 [user]
   name = daniellwdb
   email = 44723767+daniellwdb@users.noreply.github.com
+	signingkey = B2EC3D1F5F9C1DA0
 
 [pull]
   rebase = true
@@ -10,3 +11,5 @@
   default = current
 [init]
   defaultBranch = main
+[commit]
+	gpgsign = true
