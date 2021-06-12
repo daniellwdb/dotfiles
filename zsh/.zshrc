@@ -105,6 +105,9 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# Fix slowness of pastes with zsh-syntax-highlighting.zsh
+zstyle ':bracketed-paste-magic' active-widgets '.self-*'
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
