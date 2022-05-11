@@ -42,7 +42,6 @@
   "window.menuBarVisibility": "hidden",
   "window.zoomLevel": 1,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Nord Light",
   "workbench.commandPalette.preserveInput": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.focusRecentEditorAfterClose": false,
