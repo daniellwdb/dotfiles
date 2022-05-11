@@ -1,7 +1,7 @@
 [user]
   name = daniellwdb
   email = 44723767+daniellwdb@users.noreply.github.com
-  signingkey = 4A993E3C8E8F0D38
+  signingkey = 04D37549A4C1DF01
 
 [branch]
   autosetuprebase = always
