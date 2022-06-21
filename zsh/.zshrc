@@ -6,8 +6,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-NVM_AUTO_USE=true
-NVM_LAZY_LOAD=true
+
+# fnm
+export PATH=/home/daniell/.fnm:$PATH
+eval "`fnm env`"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -88,7 +90,6 @@ plugins=(
   git
   gpg-agent
   npm
-  zsh-nvm
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
